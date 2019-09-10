@@ -1,0 +1,20 @@
+
+pathmunge () {
+if ! echo $PATH | /bin/egrep -q "(^|:)$1($|:)" ; then
+   if [ "$2" = "after" ] ; then
+      PATH=$PATH:$1
+   else
+      PATH=$1:$PATH
+   fi
+fi
+}
+pathmunge $HOME/bin
+
+
+#Locale-definitions
+# UTF-8
+#######
+export LANG=en_US.UTF-8
+export LOCALE=UTF-8
+export LESSCHARSET='utf-8'
+export EDITOR=vim
