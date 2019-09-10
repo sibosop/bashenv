@@ -1,0 +1,7 @@
+
+pathmunge /opt/pkgconfig/bin
+pathmunge /Applications/microchip/mplabc30/v3.30c/bin
+pathmunge /Applications/HI-TECH/picc/9.83/bin
+pathmunge /usr/local/mysql/bin
+pathmunge $M2
+pathmunge /Users/brian/Library/Android/sdk/platform-tools

@@ -1,0 +1,20 @@
+alias startclock='startclock -l br -r -h edg-tunnel'
+alias xt='xterm -bg grey -fg black -sl 4000 -sb &'
+alias eastshore='ssh -Y brian@file.eastshore.com'
+alias killtether='sudo kextunload /System/Library/Extensions/EasyTetherUSBEthernet.kext'
+alias starttether='sudo kextload /System/Library/Extensions/EasyTetherUSBEthernet.kext'
+alias vi=vim
+
+garden() {
+  cd $HOME/GitProjects/garden/
+  while true; do ./garden.py -s SpecFiles/DroneZone.json; sleep 3; done
+}
+
+gardenHalf() {
+  cd $HOME/GitProjects/garden/
+  while true; do ./garden.py -s SpecFiles/DroneZoneHalf.json; sleep 3; done
+}
+improv() {
+  cd $HOME/GitProjects/improv
+  while true; do ./improv.py; sleep 3; done
+}

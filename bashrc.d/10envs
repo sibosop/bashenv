@@ -1,0 +1,74 @@
+
+#Locale-definisjon
+# UTF-8
+#######
+export LANG=en_US.UTF-8
+export LOCALE=UTF-8
+export LESSCHARSET='utf-8'
+export EDITOR=vim
+    
+export RAILS_DIR="$HOME/SvnProjects/br_rails/trunk"
+export EDG_SVN='svn+ssh://brian@edg-svn/home/eastshor/SvnRepos/'
+
+export RDA_HOME=/usr/local/MultiPointKVM/rda
+export RDA_SRC=$HOME/SvnProjects/rgbrda/trunk/winRda/MACOSX/
+
+
+
+export KMIP_DIR=/opt/ws/server/moonstone-gate/src/libraries/ingrian/kmip/
+
+export SIBOSOP=$RAILS_DIR/sibosop
+
+export COPYFILE_DISABLE=true
+
+export JAVA_HOME=`/usr/libexec/java_home`
+
+#
+# maven stuff
+#
+export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.5
+export M2=$M2_HOME/bin
+export MAVEN_OPTS="-Xms256m -Xmx512m"
+
+#
+# Arduino Stuff
+#
+export ARDUINO_PROJECTS=$HOME/GitProjects/ardproj
+export ARDUINO_DIR=/Applications/Arduino.app/Contents/Java/
+export ARDMK_DIR=$ARDUINO_PROJECTS/Arduino-Makefile
+export ARDUINO_SKETCHES=$ARDUINO_PROJECTS/sketches
+export USER_LIB_PATH=$ARDUINO_SKETCHES/libraries
+export ARCHITECTURE=avr
+
+
+export raw=/Volumes/C/Users/brian/ChirpGestData/raw
+export dtw=/Volumes/C/Users/brian/GitProjects/chirp/ms3/experiments/dtw/
+export PYTHONPATH=/Library/Python/2.7/site-packages
+
+#
+# Smolek defines
+export SMOLEK_ROOT=$HOME/GitProjects/smolek
+
+export TWEETMEISTER=$HOME/GitProjects/tweetmeister
+
+export GIT_PROJECTS=$HOME/GitProjects
+
+export WORDS=$GIT_PROJECTS/ArtDisplay/ImageLookup/corncob_lowercase.txt
+
+export SPARE=/Volumes/Spare
+export SIBOSOP=~/sibosopLocal
+export SIBMUSIC=$SIBOSOP/music/Music20161008
+export PYMIDI=$SIBMUSIC/pythonMusic
+export CLIPS=$SIBMUSIC/Clips
+export PYTHONPATH=$PYMIDI/eventHandler
+export EVENTS=$SIBMUSIC/Clips/events
+export ADEVENTS=$SIBMUSIC/Clips/adevents
+export SCHLUB_INT=$GIT_PROJECTS/artDisplay/schlubInterfaces
+export SEND_SOUNDS=$SCHLUB_INT/sendSounds.py
+
+export PIXEL_CAMERA=/sdcard/DCIM/Camer
+
+export SCHLUB_FULL=$SIBMUSIC/Clips/schlubFull
+export GARDEN=$HOME/GitProjects/garden
+export GARDEN_ROOT_DIR=$SCHLUB_FULL
+export GARDEN_SPECS=$GARDEN/SpecFiles
