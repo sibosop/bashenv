@@ -17,3 +17,6 @@ export clidir=$ialtar/cli
 export configDir=$ialtar/config
 export commondir=$ialtar/common
 export mondir=$ialtar/monitor
+export raspmus=$projects/raspmus
+export sibcommon=$projects/sibcommon
+export speclib=$projects/speclib
